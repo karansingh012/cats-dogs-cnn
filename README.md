@@ -47,7 +47,84 @@ The project uses a Cats vs Dogs image dataset containing labeled images for bina
 ```bash
 cats-dogs-cnn/
 │
-├── notebook.ipynb
+├── cats_dogs_cnn.ipynb
 ├── README.md
 ├── requirements.txt
+├── .gitignore
+│
 └── sample_outputs/
+    ├── training_accuracy.png
+    ├── training_loss.png
+    └── prediction_sample.png
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/karansingh012/cats-dogs-cnn.git
+```
+
+Move into project directory:
+
+```bash
+cd cats-dogs-cnn
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+## Sample Outputs
+
+### Training and Validation Accuracy
+
+![Accuracy](./sample_outputs/training_accuracy.png)
+
+### Training and Validation Loss
+
+![Loss](./sample_outputs/training_loss.png)
+
+### Prediction Example
+
+![Prediction](./sample_outputs/prediction_sample.png)
+
+---
+
+## Results
+
+- Successfully classified cat and dog images using CNN
+- Achieved consistent improvement in training accuracy across epochs
+- Applied preprocessing and augmentation techniques to improve model performance
+- Evaluated model performance using validation accuracy and loss metrics
+
+---
+
+## Future Improvements
+
+- Transfer learning using ResNet or EfficientNet
+- Hyperparameter tuning
+- Model deployment using Flask or FastAPI
+- Real-time image prediction interface
+
+---
+
+## Author
+
+Karan Singh
+
+- GitHub: https://github.com/karansingh012
+- LinkedIn: https://linkedin.com/in/karansing
